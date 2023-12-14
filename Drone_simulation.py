@@ -138,7 +138,8 @@ thetadot = X[:, 10]
 psidot = X[:, 11]
 
 plt.plot(t, east)
-##############################################################
+plt.show()
+#############################################################
 # Checking the normal force condition to prevent the robot from slipping
 
 thrust_req = (m * g * np.sin(incline_angle) / u_wheels) - m * g * np.cos(incline_angle)
